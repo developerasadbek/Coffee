@@ -1,0 +1,119 @@
+//Choose
+.choose{
+    width: 100%;
+    max-height: 575px;
+    background-color: #2C343E;
+    border-radius: 10px;
+
+    &__heading{
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+        font-family: Fraunces;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    &__text{
+        margin: 0 auto;
+        color: #FEFCF7;
+        text-align: center;
+        opacity: 0.8;
+        width: 540px;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;   
+        margin-bottom: 100px;     
+    }
+
+    &__list{
+        padding-left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0E8784;
+        border-radius: 10px;
+        width: 352px;
+        height: 382px;
+    }
+
+    &__item--img{
+        margin-top: 20px;
+    }
+
+    &__item--heading{
+        text-align: center;
+        color: white;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;  
+        margin: 0;  
+        margin-top: 55px;  
+    }
+
+    &__item--text{
+        text-align: center;
+        width: 255px;
+        color: #FEFCF7;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;    
+    }
+
+    @media only screen and (max-width: 800px) {
+        .choose{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 145px;
+
+            &__heading{
+                padding-top: 56px;
+            }
+
+            &__list{
+                flex-direction: column;
+            }
+
+            &__item{
+                margin: 0 auto;
+                flex-direction: row;
+                width: 573px; 
+                height: 180px;  
+                margin-bottom: 24px;
+            }
+
+            &__item--wrapper{
+                width: 380px;
+                margin-left: 55px;
+            }
+
+            &__item--heading{
+                margin-top: 10px;
+                text-align: left;             
+            }
+
+            &__item--text{
+                width: 100%;
+                text-align: left;
+                margin: 0;          
+            }
+        }
+    }
+}

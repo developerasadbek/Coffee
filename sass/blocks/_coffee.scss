@@ -1,0 +1,127 @@
+// Coffee
+.coffee{
+    margin-top: 40px;
+    width: 100%;
+    height: 600px;
+    background-image: url("../image/Coffee-bgi\ \(1\).jpg");
+    background-size: auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    margin-bottom: 135px;
+
+    &__wrapper{
+        padding-top: 115px;
+        padding-left: 85px;
+    }
+
+    &__heading{
+        color: white;
+        max-width: 495px;
+        font-family: Fraunces;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+    }
+
+    &__text{
+        color:#FEFCF7;
+        max-width: 445px;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;    
+        margin-bottom: 55px;   
+    }
+
+    &__link{
+        color: white;
+        background-color: #0E8784;
+        border-radius: 5px;
+        padding: 15px 30px;
+        font-family: Fraunces;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;     
+    }
+
+    &__link:hover{
+        transition: 0.5s;
+        background-color:#66D2CF;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .coffee{
+        margin-top: 40px;
+        height: 500px;
+        background-image: url("../image/coofe-tab.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 135px;
+
+
+        &__wrapper{
+        padding-top: 104px;
+        padding-left: 58px;
+        }
+
+        &__heading{
+            max-width: 329px;
+            font-family: Fraunces;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+        }
+
+        &__text{
+            max-width: 398px;
+            font-family: Barlow;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;    
+        }
+    }   
+}
+
+@media only screen and (max-width: 410px) {
+    .coffee{
+        height: 500px;
+        background-image: url("../image/coffe\ bgi\ mobile.png");
+        background-size: auto;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+
+        &__wrapper{
+            padding-top: 100px;
+            padding-left: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__heading{
+           max-width: 279px;
+           font-size: 40px;
+           text-align: center;    
+        }
+
+        &__text{
+            max-width: 279px;
+            font-size: 15px;
+            text-align: center;      
+        }
+
+        // &__link--coffee{
+        //     display: flex;
+        //     justify-content: center;
+        //     width: 217px;
+        // }
+    }
+}
