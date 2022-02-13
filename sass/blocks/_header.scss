@@ -10,6 +10,10 @@
     padding-top: 20px;
     
 
+    &__logo--link{
+        display: block;
+    }
+
     &__list{
         width: 285px;
         display: flex;
@@ -85,14 +89,9 @@
                 opacity: 0.7;
             }
         }
+        
         &__btn{
             display: block;
         }
-    }
-}
-
-@media only screen and (max-width: 411px) {
-    .header{
-        
     }
 }
